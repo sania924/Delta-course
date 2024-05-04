@@ -1,5 +1,5 @@
 let todo=[];
-let req=prompt("enter yur request"); //get user request for to add list ,delete,quit
+let req=prompt("enter your request"); //get user request for to add list ,delete,quit
 
 while(true){    // lopp infinite run until user enter quit
     if(req=="quit"){
