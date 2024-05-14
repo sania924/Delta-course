@@ -1,4 +1,4 @@
-let btn=document.querySelector('button');
+let btn=document.querySelector('button'); //access button
 btn.addEventListener("click",function()
 {
     let heading=document.querySelector('h2');
@@ -22,3 +22,4 @@ function randon(){
   let color=`rgb(${r},${g},${b})`;
 return color;
 }
+
