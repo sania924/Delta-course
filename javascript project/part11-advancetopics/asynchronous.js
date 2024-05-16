@@ -7,7 +7,7 @@ function savetoDb(data){
         if(internetSpeed>4){
             console.log("hello")
             resolve("data saved");
-        }
+        } 
         else{
             reject("data rejected");
         }
