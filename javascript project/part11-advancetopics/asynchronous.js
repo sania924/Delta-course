@@ -52,10 +52,16 @@ function changeColor(color,delay){
     })
 }
 async function demo(){
- await   changeColor("red",1000);
-  await  changeColor("green",1000);
-  await  changeColor("yellow",1000);
-  await  changeColor("blue",1000);
-
+try{
+    await   changeColor("red",1000);
+    await  changeColor("green",1000);
+    await  changeColor("yellow",1000);
+    await  changeColor("blue",1000);
+}
+catch{
+ console.log("error ")   
+}
+let a=5;
+console.log(a+9);
 }
 demo();
