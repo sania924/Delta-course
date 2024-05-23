@@ -33,6 +33,7 @@
 
 
 
+// chart functinality
 
 async function apiData(){
     const apiLink='https://dummy.restapiexample.com/api/v1/employees';
