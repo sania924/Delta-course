@@ -34,7 +34,7 @@
 
 
 // chart functinality
-
+// chart data
 async function apiData(){
     const apiLink='https://dummy.restapiexample.com/api/v1/employees';
     const response =await fetch(apiLink);
